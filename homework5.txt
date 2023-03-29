@@ -1,0 +1,46 @@
+1. What type would you choose for the following “numbers”?
+A person’s telephone number --long
+A person’s height --float
+A person’s age --byte
+A person’s gender (Male, Female, Prefer Not To Answer) -enum
+A person’s salary --double
+A book’s ISBN --string
+A book’s price --float
+A book’s shipping weight --float
+A country’s population --ulong
+The number of stars in the universe ulong
+The number of employees in each of the small or medium businesses in the
+United Kingdom (up to about 50,000 employees per business)  --ushort
+
+2. What are the difference between value type and reference type variables?
+value type is the data stored directly by its value, while reference type hold memory address for the value
+value type is not collected by garbage collector while reference types are collected by garbage collector
+value type store in stack while reference type store in heap
+
+3. What happens when you divide an int variable by 0?
+throw DevideByZeroException
+
+4. What happens when you divide a double variable by 0?
+infinity
+
+5. What happens when you overflow an int variable, that is, set it to a value beyond its
+range?
+the variable will become negative
+
+6. What is the difference between x = y++; and x = ++y;?
+x=y++ means x=y before y=y+1
+x=++y means x=y after y=y+1  
+
+7. What is the difference between break, continue, and return when used inside a loop
+statement?
+break means break out of the entire loop; return means break and return value to the method; continue means jump to the head of the next loop
+
+8. What are the three parts of a for statement and which of them are required?
+initialization
+condition
+iterator
+none of them are required
+
+
+
+
